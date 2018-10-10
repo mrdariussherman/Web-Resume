@@ -1,0 +1,17 @@
+#footer {
+	position: aboslute;
+  font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: #f2b632;
+	letter-spacing: 0.1em;
+  text-align: center;
+  background-color: #677077;
+  line-height: 50px;
+  font-size: 15px;
+  z-index: 1000;
+	bottom: 0;
+}
+
+a {
+	color:  #f2b632;
+}
