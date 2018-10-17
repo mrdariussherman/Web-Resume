@@ -1,7 +1,24 @@
-h4 {
-    color: white;
+#about {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #f2b632;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
 }
 
-p {
-    color: white;
+#information {
+	font-weight: normal;
+	text-transform: none;
+	color: #b5b5b7;
+	
+}
+
+#title {
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+color: #f2b632;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+font-size: 18px;
 }
