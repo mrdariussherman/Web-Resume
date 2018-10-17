@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
+<base href="https://mrdariussherman.github.io/Web-Resume/">	%MINIFYHTMLf8c3584378a38b6d25cfaf1e861d8a8d6%
   <meta charset="utf-8">
   <title>Darius Sherman</title>
   <base href="/">
@@ -16,6 +17,21 @@
   <meta name="theme-color" content="#ffffff">
 <link rel="stylesheet" href="styles.d3a6adbc6094f38bb8db.css"></head>
 <body>
+	<script>
+    (function(){
+      var redirect = sessionStorage.redirect;
+      delete sessionStorage.redirect;
+      if (redirect && redirect != location.href) {
+        history.replaceState(null, null, redirect);
+        // REMOVE THIS - just showing the redirect route in the UI
+        document.body.setAttribute('message', 'This page was redirected by 404.html, from the route: ' + redirect);
+      }
+      else {
+        // REMOVE THIS - just showing the redirect route in the UI
+        document.body.setAttribute('message', 'This page was loaded directly from the index.html file');
+      }
+    })();
+  </script>
   <app-root></app-root>
 <script type="text/javascript" src="runtime.a66f828dca56eeb90e02.js"></script><script type="text/javascript" src="polyfills.2f4a59095805af02bd79.js"></script><script type="text/javascript" src="main.bd8f4ca133eb02c15908.js"></script></body>
 </html>
